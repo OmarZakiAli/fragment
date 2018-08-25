@@ -1,0 +1,30 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+       android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:text="word class players" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:id="@+id/rec"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:layout_marginHorizontal="8dp"
+
+        />
+</RelativeLayout>
